@@ -9,7 +9,7 @@
 .content {
     margin: 0 auto;
     min-height: 100vh;
-    max-width: 1000px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
 
@@ -69,6 +69,7 @@
             color: $veryLight;
             font-weight: 100;
             font-size: 20px;
+            padding-left: 1px;
         }
     
         h1 {
@@ -111,7 +112,6 @@
         
                 ul {
                     padding-top: 15px;
-                    height: 100px;
                     display: grid;
                     grid-template-columns: repeat(3, minmax(140px, 200px));
         
