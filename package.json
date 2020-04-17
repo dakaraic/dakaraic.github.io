@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/dakaraic/dotcom#readme",
   "dependencies": {
+    "jquery": "^3.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

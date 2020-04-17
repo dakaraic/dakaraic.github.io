@@ -6,7 +6,7 @@ module.exports = {
     mode: process.env.NODE_ENV !== 'production' ? 'development' : 'production',
     entry: './src/index.jsx',
     output: {
-        path: path.join(__dirname, '/build'),
+        path: __dirname,
         filename: 'bundle.js?[hash]'
     },
     module: {

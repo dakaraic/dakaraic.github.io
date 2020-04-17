@@ -1,4 +1,5 @@
 import * as React from 'react';
+import $ from 'jquery';
 
 import { Logo } from '../Navigation/Logo';
 import { NavigationLink } from '../Navigation/NavigationLink';
