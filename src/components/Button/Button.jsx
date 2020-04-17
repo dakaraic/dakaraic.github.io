@@ -7,7 +7,7 @@ export class Button extends React.Component {
     
     render() {
         return (
-            <a href={this.props.link} className="button">{this.props.text}</a>
+            <a href={this.props.link} target="_" className="button">{this.props.text}</a>
         )
     }
 }
