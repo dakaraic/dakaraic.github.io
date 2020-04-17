@@ -175,7 +175,7 @@
         .project {
             display: flex;
             flex-direction: row;
-            margin-bottom: 80px;
+            margin-bottom: 100px;
 
             &:last-child {
                 margin-bottom: 0px;
@@ -237,12 +237,19 @@
                 }
 
                 a {
+                    padding: 10px;
+
+                    &:last-child {
+                        padding-right: 0px;
+                    }
+
                     svg {
-                        width: 14px;
-                        height: 14px;
+                        width: 16px;
+                        height: 16px;
                         fill: $veryLightGray;
                         transition: .15s all ease;
                     }
+
                     &:hover {
                         svg {
                             fill: $veryLight;
@@ -257,6 +264,17 @@
                     text-align: left;
                     align-content: flex-start;
                     justify-content: flex-start;
+
+                    a {
+                        &:nth-of-type(1) {
+                            padding-right: 10px;
+                            padding-left: 0px !important;
+                        }
+
+                        &:last-child {
+                            padding-right: 10px;
+                        }
+                    }
 
                     .description {
                         float: left;
