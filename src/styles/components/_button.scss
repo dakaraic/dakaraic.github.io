@@ -1,0 +1,12 @@
+.button {
+    padding: 10px 20px;
+    border: 1px solid $veryLight;
+    color: $veryLight;
+    text-decoration: none;
+    transition: .15s all ease;
+    display: inline-block;
+
+    &:hover {
+        background: $dark;
+    }
+}

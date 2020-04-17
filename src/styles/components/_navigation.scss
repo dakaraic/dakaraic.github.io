@@ -1,0 +1,41 @@
+.navigation {
+    width: 100%;
+    height: $navigationHeight;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .logo {
+        fill: $veryLight;
+        width: $navigationHeight;
+    }
+
+    .navigation-links {
+        list-style: initial;
+
+        .navigation-link {
+            display: inline;
+            padding: 0px 25px;
+
+            a {
+                text-decoration: none;
+                color: $light;
+                transition: .15s all ease;
+
+                .number {
+                    color: $veryLight;
+                }
+
+                &:hover {
+                    color: $veryLight;
+                }
+            }
+        }
+
+        .button {
+            margin-left: 25px;
+        }
+    }
+}
