@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 .content {
   margin: 0 auto;
   min-height: 100vh;
-  max-width: 900px;
+  max-width: 1000px;
   display: flex;
   flex-direction: column; }
   .content section {
