@@ -1,11 +1,11 @@
 import * as React from 'react';
-import $ from 'jquery';
 
 import { Logo } from '../Navigation/Logo';
 import { NavigationLink } from '../Navigation/NavigationLink';
 import { Button } from '../Button/Button';
 import Selfie from '../../../static/img/self.jpg';
 import Branding from '../../../static/img/branding.png';
+import Artis from '../../../static/img/artis.png';
 
 export class Application extends React.Component {
     render() {
@@ -89,23 +89,23 @@ export class Application extends React.Component {
                                 </p>
                             </div>
                         </div>
-                        {/*<div className="project">
-                            <div className="preview-container"><img className="preview"></img></div>
+                        <div className="project">
+                            <div className="preview-container"><img className="preview" src={Artis}></img></div>
                             <div className="info">
-                                <h2 className="name">RED Software, LLC.</h2>
+                                <h2 className="name">Artis Landing Page</h2>
                                 <p className="description">
-                                    A multi-page website created for RED Software, LLC., a 
-                                    software business which I founded in October of 2018.
+                                    A single-page website previewing Artis, a progressive web 
+                                    application for creators.
                                     <br/>
                                     <br/>
-                                    It includes functions such as user sign-on, account 
-                                    settings, payment gateways, and more.
+                                    It also includes an email subscription feature that allows 
+                                    the client to maintain a mailing list.
                                     <br/>
                                     <br/>
-                                    <a href="https://redware.co" target="_"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 194.818 194.818"><title>External</title><g><path d="M185.818,2.161h-57.04c-4.971,0-9,4.029-9,9s4.029,9,9,9h35.312l-86.3,86.3c-3.515,3.515-3.515,9.213,0,12.728 c1.758,1.757,4.061,2.636,6.364,2.636s4.606-0.879,6.364-2.636l86.3-86.3v35.313c0,4.971,4.029,9,9,9s9-4.029,9-9v-57.04 C194.818,6.19,190.789,2.161,185.818,2.161z"></path><path d="M149,77.201c-4.971,0-9,4.029-9,9v88.456H18v-122h93.778c4.971,0,9-4.029,9-9s-4.029-9-9-9H9c-4.971,0-9,4.029-9,9v140 c0,4.971,4.029,9,9,9h140c4.971,0,9-4.029,9-9V86.201C158,81.23,153.971,77.201,149,77.201z"></path></g></svg></a>
+                                    <a href="https://artis.community" target="_"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 194.818 194.818"><title>External</title><g><path d="M185.818,2.161h-57.04c-4.971,0-9,4.029-9,9s4.029,9,9,9h35.312l-86.3,86.3c-3.515,3.515-3.515,9.213,0,12.728 c1.758,1.757,4.061,2.636,6.364,2.636s4.606-0.879,6.364-2.636l86.3-86.3v35.313c0,4.971,4.029,9,9,9s9-4.029,9-9v-57.04 C194.818,6.19,190.789,2.161,185.818,2.161z"></path><path d="M149,77.201c-4.971,0-9,4.029-9,9v88.456H18v-122h93.778c4.971,0,9-4.029,9-9s-4.029-9-9-9H9c-4.971,0-9,4.029-9,9v140 c0,4.971,4.029,9,9,9h140c4.971,0,9-4.029,9-9V86.201C158,81.23,153.971,77.201,149,77.201z"></path></g></svg></a>
                                 </p>
                             </div>
-                        </div>*/}
+                        </div>
                     </section>
                     <section id="contact" className="center">
                         <div className="title">
