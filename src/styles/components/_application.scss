@@ -206,6 +206,9 @@
                     border: 1px solid $veryLightGray;
                     filter: grayscale(100%);
                     transition: .15s all ease;
+                    background: $veryDark;
+                    object-fit: cover;
+                    object-position: top;
 
                     &:hover {
                         filter: grayscale(0%);
