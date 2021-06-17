@@ -165,7 +165,10 @@ h1, h2, h3, h4, h5, h6 {
         position: relative;
         border: 1px solid #555555;
         filter: grayscale(100%);
-        transition: .15s all ease; }
+        transition: .15s all ease;
+        background: #101010;
+        object-fit: cover;
+        object-position: top; }
         .content #projects .project .preview-container .preview:hover {
           filter: grayscale(0%); }
     .content #projects .project .info {
